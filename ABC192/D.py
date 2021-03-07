@@ -13,7 +13,7 @@ if len(n) == 1:
     exit()
 
 ok = d          #left
-ng = 10**18 + 1 #right
+ng = M + 1      #right 最大は10の時で、1*M^1となる
 
 while ng - ok > 1: #ng = ok + 1の場合になるまで繰り返す
 
