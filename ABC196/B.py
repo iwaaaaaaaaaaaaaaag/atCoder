@@ -1,10 +1,3 @@
 X =str(input())
 
-ans = ""
-for x in X:
-    if x == '.':
-        break
-    else:
-        ans += x
-
-print(ans)
+print(X[1]+X[2],X[0])
